@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:layout_margin="20dp"
+    tools:context="com.insectiousapp.broadcastreceiver.MainActivity">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:src="@mipmap/driver_image1"
+        android:layout_margin="10dp"
+        />
+
+    <CheckBox
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:text="Respond Automatically"
+        android:id="@+id/cbSendMessage"
+        android:textSize="20sp"
+        android:fontFamily="sans-serif-light"
+        android:gravity="center"
+        android:textColor="@color/colorAccent"
+        android:layout_margin="20dp"
+        />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="Driver Mode On"
+        android:id="@+id/btRegister"
+        android:textSize="20sp"
+        android:fontFamily="sans-serif-light"
+        android:background="@color/colorAccent"
+        android:textColor="#ffffff"
+        android:layout_margin="20dp"
+        />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="Driver Mode Off"
+        android:id="@+id/btUnregister"
+        android:textSize="20sp"
+        android:fontFamily="sans-serif-light"
+        android:background="@color/colorAccent"
+        android:textColor="#ffffff"
+        android:layout_margin="20dp"
+        />
+
+
+
+</LinearLayout>
