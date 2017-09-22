@@ -35,7 +35,7 @@
         android:id="@+id/btRegister"
         android:textSize="20sp"
         android:fontFamily="sans-serif-light"
-        android:background="@color/colorAccent"
+        android:background="@drawable/button_background1"
         android:textColor="#ffffff"
         android:layout_margin="20dp"
         />
