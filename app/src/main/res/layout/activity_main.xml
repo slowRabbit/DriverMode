@@ -18,40 +18,30 @@
 
     <CheckBox
         android:layout_width="match_parent"
-        android:layout_height="80dp"
+        android:layout_height="wrap_content"
         android:text="Respond Automatically"
         android:id="@+id/cbSendMessage"
         android:textSize="20sp"
         android:fontFamily="sans-serif-light"
         android:gravity="center"
         android:textColor="@color/colorAccent"
-        android:layout_margin="20dp"
+        android:layout_margin="10dp"
+        android:padding="10dp"
         />
 
-    <Button
-        android:layout_width="match_parent"
-        android:layout_height="50dp"
-        android:text="Driver Mode On"
-        android:id="@+id/btRegister"
+
+    <ToggleButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textOff="Driver Mode Off"
+        android:textOn="Driver Mode On"
+        android:id="@+id/btnDriverMode"
         android:textSize="20sp"
         android:fontFamily="sans-serif-light"
         android:background="@drawable/button_background1"
         android:textColor="#ffffff"
-        android:layout_margin="20dp"
+        android:layout_margin="10dp"
+        android:padding="20dp"
         />
-
-    <Button
-        android:layout_width="match_parent"
-        android:layout_height="50dp"
-        android:text="Driver Mode Off"
-        android:id="@+id/btUnregister"
-        android:textSize="20sp"
-        android:fontFamily="sans-serif-light"
-        android:background="@color/colorAccent"
-        android:textColor="#ffffff"
-        android:layout_margin="20dp"
-        />
-
-
 
 </LinearLayout>
